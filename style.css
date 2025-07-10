@@ -78,6 +78,14 @@ a{
 
 .call-sign{
     background-color: #3882f6;
+    margin: 150px 200px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .icon{
@@ -104,6 +112,7 @@ button{
     border-radius: 8px;
     height: 36px;
     width: 130px;
+    flex-shrink: 0;
 }
 
 .call-button{
@@ -115,6 +124,7 @@ button{
     flex-direction: column;
     padding: 50px 260px;
     gap: 36px;
+    padding-bottom: 150px;
 }
 
 .info-images-container{
@@ -148,7 +158,7 @@ button{
 .quote{
     display: flex;
     flex-direction: column;
-    padding: 50px 260px;
+    padding: 150px 260px;
 }
 
 .quote-text{
