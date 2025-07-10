@@ -19,6 +19,10 @@ a{
     width: 520px;
     height: 240px;
     background-color: grey;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-info{
@@ -32,6 +36,40 @@ a{
     background-color: #1F2937;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header-links{
+    display: flex;
+    align-items: end;
+}
+
+.links{
+    display: flex;
+    gap: 24px;
+}
+
+.hero-main{
+    display: flex;
+    padding: 120px 0px;
+    gap: 24px;
+}
+
+.hero-main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .quote{
     background-color: #E5E7EB;
 }
@@ -41,6 +79,7 @@ a{
 }
 
 .icon{
+    font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -61,21 +100,47 @@ button{
     border: none;
     font-weight: bold;
     border-radius: 8px;
+    height: 36px;
+    width: 130px;
 }
 
 .call-button{
     border: 2px solid white;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 260px;
+    gap: 36px;
+}
+
+.info-images-container{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-images{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
 .info-main-text{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
 }
 
 .info-secondary-text{
     font-size: 18px;
     color: #1F2937;
+    width: 120px;
 }
 
 .quote-text{
