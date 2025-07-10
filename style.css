@@ -26,8 +26,8 @@ a{
 }
 
 .image-info{
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border: 4px, solid, #3882f6;
     border-radius: 16px;
 }
@@ -62,12 +62,14 @@ a{
     display: flex;
     padding: 120px 0px;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .hero-main-left{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    max-width: 600px;
 }
 
 .quote{
@@ -140,7 +142,8 @@ button{
 .info-secondary-text{
     font-size: 18px;
     color: #1F2937;
-    width: 120px;
+    width: 220px;
+    text-align: center;
 }
 
 .quote-text{
