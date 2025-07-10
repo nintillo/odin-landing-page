@@ -145,16 +145,24 @@ button{
     width: 220px;
     text-align: center;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 260px;
+}
 
 .quote-text{
+    padding-left: 72px;
     font-size: 36px;
     color: #1F2937;
-    font-style: light italic;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .quote-secondary-text{
     font-size: 24px;
     color: #1F2937;
     font-weight: bold;
+    align-self: flex-end;
 }
 
